@@ -1,0 +1,15 @@
+environments:
+  local:
+    base_url: "http://localhost:9090"
+  mock:
+    base_url: "https://mockapi.example.com"
+  qa:
+    base_url: "https://reqres.in/api"
+
+api:
+  key: "reqres-free-v1"
+
+User:
+  create: "/users"
+  get: "/users/"
+  update: "/users/"
